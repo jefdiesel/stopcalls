@@ -4,7 +4,7 @@ interface BlogPost {
   slug: string;
   title: string;
   excerpt: string;
-  category: 'guide' | 'comparison' | 'news' | 'story';
+  category: 'guide' | 'comparison' | 'news' | 'case';
   date: string;
   readTime: string;
 }
@@ -92,22 +92,22 @@ const posts: BlogPost[] = [
     date: '2025-02-09',
     readTime: '5 min',
   },
-  // Stories
+  // Case Studies (Real Documented Cases)
   {
-    slug: 'i-sued-midland-credit-won',
-    title: 'I Sued Midland Credit Management and Won $3,500',
-    excerpt: 'They called my cell phone 47 times after I told them to stop. An attorney took my case for free. Here\'s what happened.',
-    category: 'story',
+    slug: 'tcpa-robocall-case-229000-verdict',
+    title: 'Case Study: $229,500 Verdict for 153 Robocalls (King v. Time Warner Cable)',
+    excerpt: 'A real federal court case where a consumer won $1,500 per robocall after Time Warner ignored her requests to stop calling.',
+    category: 'case',
     date: '2025-02-09',
     readTime: '6 min',
   },
   {
-    slug: 'equifax-deleted-collections-account',
-    title: 'How I Got Equifax to Delete a $12,000 Collections Account',
-    excerpt: 'The debt wasn\'t mine. It took 3 dispute letters and a lawsuit threat, but it\'s gone. Here\'s exactly what I did.',
-    category: 'story',
+    slug: 'cfpb-midland-encore-settlement',
+    title: 'Case Study: CFPB Orders Midland Credit $79 Million for FDCPA Violations',
+    excerpt: 'The largest debt collection enforcement action ever. What Midland did wrong and what it means for you.',
+    category: 'case',
     date: '2025-02-09',
-    readTime: '8 min',
+    readTime: '7 min',
   },
 ];
 
@@ -115,20 +115,20 @@ const categoryLabels = {
   guide: 'Guide',
   comparison: 'Comparison',
   news: 'News',
-  story: 'Success Story',
+  case: 'Case Study',
 };
 
 const categoryColors = {
   guide: 'bg-blue-100 text-blue-800',
   comparison: 'bg-purple-100 text-purple-800',
   news: 'bg-green-100 text-green-800',
-  story: 'bg-orange-100 text-orange-800',
+  case: 'bg-orange-100 text-orange-800',
 };
 
 export default function BlogPage() {
   const comparisons = posts.filter((p) => p.category === 'comparison');
   const guides = posts.filter((p) => p.category === 'guide');
-  const stories = posts.filter((p) => p.category === 'story');
+  const cases = posts.filter((p) => p.category === 'case');
 
   return (
     <div className="min-h-screen bg-gray-50">
@@ -202,13 +202,16 @@ export default function BlogPage() {
           </div>
         </section>
 
-        {/* Success Stories */}
+        {/* Case Studies */}
         <section className="mb-16">
           <h2 className="text-2xl font-bold text-gray-900 mb-6">
-            Success Stories
+            Real Court Cases & Settlements
           </h2>
+          <p className="text-gray-600 mb-6">
+            Documented cases from federal courts and regulatory actions. These are real outcomes - not hypothetical examples.
+          </p>
           <div className="grid md:grid-cols-2 gap-6">
-            {stories.map((post) => (
+            {cases.map((post) => (
               <Link
                 key={post.slug}
                 href={`/blog/${post.slug}`}
@@ -222,7 +225,7 @@ export default function BlogPage() {
                 </h3>
                 <p className="text-gray-600 text-sm mb-4">{post.excerpt}</p>
                 <span className="text-orange-600 text-sm font-medium">
-                  Read the full story →
+                  Read the case study →
                 </span>
               </Link>
             ))}
