@@ -93,7 +93,7 @@ export default function TemplatesPage() {
           <h1 className="text-4xl md:text-5xl font-bold">
             Free Letter Templates
           </h1>
-          <p className="mt-4 text-xl text-blue-100">
+          <p className="mt-4 text-xl text-white">
             Download free, ready-to-use legal letters to protect your rights against debt collectors
             and report violations.
           </p>

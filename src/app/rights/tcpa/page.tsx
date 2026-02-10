@@ -15,7 +15,7 @@ export default function TCPARights() {
           <h1 className="text-4xl md:text-5xl font-bold">
             Your TCPA Rights
           </h1>
-          <p className="mt-4 text-xl text-blue-100">
+          <p className="mt-4 text-xl text-white">
             The Telephone Consumer Protection Act protects you from unwanted robocalls, automated texts,
             and prerecorded messages. Here&apos;s what you need to know.
           </p>
@@ -183,7 +183,7 @@ export default function TCPARights() {
                 </div>
               </div>
               <div className="mt-6 p-4 bg-green-50 rounded-lg">
-                <h4 className="font-semibold text-green-800">Example Calculation:</h4>
+                <h3 className="font-semibold text-green-800">Example Calculation:</h3>
                 <p className="text-green-700 mt-2">
                   50 robocalls &times; $500 = <strong>$25,000</strong> (standard damages)<br />
                   50 robocalls &times; $1,500 = <strong>$75,000</strong> (if willful)
@@ -280,7 +280,7 @@ export default function TCPARights() {
           {/* CTA */}
           <div className="bg-blue-600 rounded-xl p-8 text-white text-center">
             <h2 className="text-2xl font-bold">Getting Bombarded With Robocalls?</h2>
-            <p className="mt-2 text-blue-100">
+            <p className="mt-2 text-white">
               Our free violation checker can help you identify potential TCPA violations and estimate your case value.
             </p>
             <Link

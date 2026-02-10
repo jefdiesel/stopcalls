@@ -97,7 +97,7 @@ export default function AttorneysPage() {
           <h1 className="text-4xl md:text-5xl font-bold">
             Join Our Attorney Network
           </h1>
-          <p className="mt-4 text-xl text-blue-100">
+          <p className="mt-4 text-xl text-white">
             Receive pre-qualified FDCPA and TCPA leads. Consumers are educated, screened,
             and ready to discuss their cases.
           </p>

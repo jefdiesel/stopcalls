@@ -161,7 +161,7 @@ export default function AboutPage() {
                   </svg>
                 </div>
                 <div>
-                  <h4 className="font-bold text-gray-900">Debt doesn&apos;t make you a bad person.</h4>
+                  <h3 className="font-bold text-gray-900">Debt doesn&apos;t make you a bad person.</h3>
                   <p className="text-gray-600 mt-1">
                     Medical bills, job loss, divorce, economic downturns — life happens.
                     Owing money is a financial situation, not a character flaw.
@@ -176,7 +176,7 @@ export default function AboutPage() {
                   </svg>
                 </div>
                 <div>
-                  <h4 className="font-bold text-gray-900">Knowledge is power.</h4>
+                  <h3 className="font-bold text-gray-900">Knowledge is power.</h3>
                   <p className="text-gray-600 mt-1">
                     Debt collectors bet on your ignorance. When you know your rights,
                     the power dynamic shifts completely.
@@ -191,7 +191,7 @@ export default function AboutPage() {
                   </svg>
                 </div>
                 <div>
-                  <h4 className="font-bold text-gray-900">Fighting back should be free.</h4>
+                  <h3 className="font-bold text-gray-900">Fighting back should be free.</h3>
                   <p className="text-gray-600 mt-1">
                     Thanks to fee-shifting provisions in the FDCPA and TCPA, attorneys can
                     take cases on contingency. You pay nothing unless you win — and the
@@ -207,7 +207,7 @@ export default function AboutPage() {
                   </svg>
                 </div>
                 <div>
-                  <h4 className="font-bold text-gray-900">Accountability matters.</h4>
+                  <h3 className="font-bold text-gray-900">Accountability matters.</h3>
                   <p className="text-gray-600 mt-1">
                     When collectors face consequences for breaking the law, they think twice
                     before harassing the next person. Every case matters.
@@ -296,7 +296,7 @@ export default function AboutPage() {
             <h2 className="text-2xl font-bold mb-4">
               Check Your Rights — Free
             </h2>
-            <p className="text-blue-100 mb-6 max-w-xl mx-auto">
+            <p className="text-white mb-6 max-w-xl mx-auto">
               Takes 2 minutes. No cost. No obligation. Find out if you have a case.
             </p>
             <Link

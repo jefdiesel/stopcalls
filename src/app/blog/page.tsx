@@ -237,7 +237,7 @@ export default function BlogPage() {
           <h2 className="text-2xl font-bold mb-4">
             Think You Have a Case?
           </h2>
-          <p className="text-blue-100 mb-6 max-w-2xl mx-auto">
+          <p className="text-white mb-6 max-w-2xl mx-auto">
             Our free violation checker identifies potential FDCPA, TCPA, and FCRA violations in under 2 minutes.
             If you have a case, we&apos;ll connect you with an attorney at no cost.
           </p>

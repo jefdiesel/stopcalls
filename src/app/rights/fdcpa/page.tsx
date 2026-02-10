@@ -15,7 +15,7 @@ export default function FDCPARights() {
           <h1 className="text-4xl md:text-5xl font-bold">
             Your FDCPA Rights
           </h1>
-          <p className="mt-4 text-xl text-blue-100">
+          <p className="mt-4 text-xl text-white">
             The Fair Debt Collection Practices Act protects you from abusive, unfair, and deceptive
             debt collection practices. Here&apos;s what you need to know.
           </p>
@@ -232,7 +232,7 @@ export default function FDCPARights() {
           {/* CTA */}
           <div className="bg-blue-600 rounded-xl p-8 text-white text-center">
             <h2 className="text-2xl font-bold">Think Your Rights Were Violated?</h2>
-            <p className="mt-2 text-blue-100">
+            <p className="mt-2 text-white">
               Our free violation checker can help you identify potential FDCPA violations.
             </p>
             <Link

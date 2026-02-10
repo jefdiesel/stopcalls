@@ -78,7 +78,7 @@ export default function CeaseCommunicationTemplate() {
           <h1 className="text-3xl md:text-4xl font-bold">
             Cease Communication Letter
           </h1>
-          <p className="mt-3 text-lg text-blue-100">
+          <p className="mt-3 text-lg text-white">
             Legally demand that a debt collector stop contacting you.
           </p>
         </div>

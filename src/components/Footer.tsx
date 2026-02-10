@@ -65,6 +65,11 @@ export default function Footer() {
                   Terms of Service
                 </Link>
               </li>
+              <li>
+                <Link href="/accessibility" className="hover:text-white transition-colors">
+                  Accessibility
+                </Link>
+              </li>
             </ul>
           </div>
         </div>
@@ -74,7 +79,7 @@ export default function Footer() {
             <p className="text-gray-400 text-sm">
               &copy; {new Date().getFullYear()} ConsumerShield. All rights reserved.
             </p>
-            <p className="text-gray-500 text-sm mt-2 md:mt-0">
+            <p className="text-gray-400 text-sm mt-2 md:mt-0">
               This site provides legal information, not legal advice. Consult an attorney for your specific situation.
             </p>
           </div>

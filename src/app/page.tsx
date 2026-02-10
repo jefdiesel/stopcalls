@@ -11,18 +11,24 @@ export default function Home() {
               Debt Collectors Breaking the Law?
               <span className="block text-blue-200 mt-2">You Could Be Owed Money.</span>
             </h1>
-            <p className="mt-6 text-xl text-blue-100 leading-relaxed">
-              Federal law protects you from harassment, illegal calls, and shady debt collection tactics.
-              Find out if your rights have been violated and connect with an attorney who can help &mdash;
-              <strong> at no cost to you.</strong>
+            <p className="mt-6 text-xl text-white leading-relaxed">
+              I was harassed by debt collection calls for months. When I searched for help, everyone wanted
+              to sell me something. So I did my own research and discovered laws that protect people like us &mdash;
+              and I want to share what I learned with you.
             </p>
-            <div className="mt-10 flex flex-col sm:flex-row gap-4">
+            <div className="mt-6 bg-white/10 rounded-lg p-4">
+              <p className="text-white font-medium">
+                <strong>Why is this free?</strong> Consumer protection laws include &quot;fee-shifting&quot; &mdash; when you win,
+                the debt collector pays your attorney&apos;s fees, not you. You pay $0 out of pocket.
+              </p>
+            </div>
+            <div className="mt-8 flex flex-col sm:flex-row gap-4">
               <Link
                 href="/check"
                 className="inline-flex items-center justify-center px-8 py-4 text-lg font-semibold bg-white text-blue-600 rounded-lg hover:bg-blue-50 transition-colors shadow-lg"
               >
                 Check My Rights Now
-                <svg className="ml-2 w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <svg className="ml-2 w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 7l5 5m0 0l-5 5m5-5H6" />
                 </svg>
               </Link>
@@ -229,36 +235,6 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Why Free */}
-      <section className="py-16 md:py-24">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="bg-blue-600 rounded-2xl p-8 md:p-12 text-white">
-            <div className="md:flex md:items-center md:justify-between">
-              <div className="md:w-2/3">
-                <h2 className="text-3xl md:text-4xl font-bold">
-                  Why Is This Free?
-                </h2>
-                <p className="mt-4 text-xl text-blue-100">
-                  Consumer protection laws like FDCPA include &quot;fee-shifting&quot; provisions. This means when you win,
-                  the debt collector pays your attorney&apos;s fees &mdash; not you. Attorneys work on contingency because
-                  these cases are designed to protect consumers without financial barriers.
-                </p>
-                <p className="mt-4 text-blue-100">
-                  We connect you with qualified attorneys. If you have a case and they take it, you pay $0 out of pocket.
-                </p>
-              </div>
-              <div className="mt-8 md:mt-0 md:ml-8">
-                <Link
-                  href="/check"
-                  className="inline-flex items-center justify-center px-8 py-4 text-lg font-semibold bg-white text-blue-600 rounded-lg hover:bg-blue-50 transition-colors"
-                >
-                  Get Started Free
-                </Link>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
 
       {/* Testimonial/Trust Section */}
       <section className="py-16 md:py-24 bg-gray-50">

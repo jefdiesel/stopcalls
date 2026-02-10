@@ -1412,7 +1412,7 @@ export default function BlogPostPage({ params }: { params: { slug: string } }) {
           <h2 className="text-2xl font-bold mb-4">
             Think You Have a Case?
           </h2>
-          <p className="text-blue-100 mb-6">
+          <p className="text-white mb-6">
             Our free violation checker identifies FDCPA, TCPA, and FCRA violations in under 2 minutes.
           </p>
           <Link

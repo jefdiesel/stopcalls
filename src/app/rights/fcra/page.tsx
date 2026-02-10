@@ -207,7 +207,7 @@ export default function FCRAPage() {
               <div>
                 <h3 className="text-xl font-bold text-gray-900 mb-2">Get Your Reports</h3>
                 <p className="text-gray-600">
-                  Go to <a href="https://www.annualcreditreport.com" className="text-purple-600 hover:underline" target="_blank">AnnualCreditReport.com</a> (the only official source). Check all three bureaus - they often have different errors.
+                  Go to <a href="https://www.annualcreditreport.com" className="text-purple-600 underline hover:text-purple-800" target="_blank" rel="noopener noreferrer">AnnualCreditReport.com</a> (the only official source). Check all three bureaus - they often have different errors.
                 </p>
               </div>
             </div>

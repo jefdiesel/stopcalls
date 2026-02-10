@@ -96,7 +96,7 @@ export default function DebtValidationTemplate() {
           <h1 className="text-3xl md:text-4xl font-bold">
             Debt Validation Letter
           </h1>
-          <p className="mt-3 text-lg text-blue-100">
+          <p className="mt-3 text-lg text-white">
             Request proof that you owe the debt and that the collector has the right to collect it.
           </p>
         </div>
