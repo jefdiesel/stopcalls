@@ -9,7 +9,7 @@ export default function Home() {
           <div className="md:flex md:items-center md:gap-12">
           <div className="max-w-3xl md:w-1/2">
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold leading-tight">
-              Debt Collectors Breaking the Law?
+              Harassing Phone Calls?
               <span className="block text-blue-200 mt-2">You Could Be Owed Money.</span>
             </h1>
             <p className="mt-6 text-xl text-white leading-relaxed">
