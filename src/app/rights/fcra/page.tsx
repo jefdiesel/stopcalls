@@ -52,25 +52,25 @@ export default function FCRAPage() {
             The Credit Bureaus
           </h2>
           <p className="text-lg text-gray-700 mb-6">
-            Three companies control your credit score. They collect data from banks, credit cards, and collectors - and they make mistakes constantly.
+            Three companies control your credit score. They collect data from banks, credit cards, and collectors. According to FTC studies, 1 in 5 consumers have errors on their reports.
           </p>
           <div className="grid md:grid-cols-3 gap-6">
             <div className="bg-white rounded-xl p-6 shadow-sm border text-center">
               <h3 className="text-xl font-bold text-gray-900 mb-2">Equifax</h3>
               <p className="text-gray-600 text-sm">
-                The company that leaked 147 million Americans&apos; data in 2017. Still in business. Still making errors.
+                One of the three major bureaus. Handles credit data for hundreds of millions of consumers.
               </p>
             </div>
             <div className="bg-white rounded-xl p-6 shadow-sm border text-center">
               <h3 className="text-xl font-bold text-gray-900 mb-2">Experian</h3>
               <p className="text-gray-600 text-sm">
-                Processes billions of data points. Uses automated systems that mix up files and miss obvious errors.
+                Processes billions of data points from creditors, lenders, and collection agencies.
               </p>
             </div>
             <div className="bg-white rounded-xl p-6 shadow-sm border text-center">
               <h3 className="text-xl font-bold text-gray-900 mb-2">TransUnion</h3>
               <p className="text-gray-600 text-sm">
-                Sued multiple times for failing to investigate disputes. Keeps making the same mistakes.
+                Maintains credit files on over 200 million Americans with data from thousands of sources.
               </p>
             </div>
           </div>
@@ -337,28 +337,31 @@ export default function FCRAPage() {
         {/* Real Cases */}
         <section className="mb-16">
           <h2 className="text-3xl font-bold text-gray-900 mb-6">
-            Real FCRA Settlements
+            Notable FCRA Court Cases
           </h2>
+          <p className="text-gray-600 mb-6 text-sm">
+            These are publicly documented court cases and settlements. Past results do not guarantee future outcomes.
+          </p>
           <div className="grid md:grid-cols-2 gap-6">
             <div className="bg-white rounded-xl p-6 shadow-sm border">
               <div className="text-3xl font-bold text-green-600 mb-2">$40M</div>
-              <div className="text-xl font-bold text-gray-900 mb-1">Equifax Mixed Files (2013)</div>
-              <p className="text-gray-600">Class action for mixing up consumers&apos; credit files</p>
+              <div className="text-xl font-bold text-gray-900 mb-1">White v. Equifax (2013)</div>
+              <p className="text-gray-600">Class action settlement involving mixed credit files</p>
             </div>
             <div className="bg-white rounded-xl p-6 shadow-sm border">
-              <div className="text-3xl font-bold text-green-600 mb-2">$23M</div>
-              <div className="text-xl font-bold text-gray-900 mb-1">TransUnion (2017)</div>
-              <p className="text-gray-600">Falsely labeling consumers as terrorists and drug traffickers</p>
+              <div className="text-3xl font-bold text-green-600 mb-2">$8M+</div>
+              <div className="text-xl font-bold text-gray-900 mb-1">Ramirez v. TransUnion (2021)</div>
+              <p className="text-gray-600">Supreme Court case regarding OFAC terrorist list matching errors</p>
             </div>
             <div className="bg-white rounded-xl p-6 shadow-sm border">
-              <div className="text-3xl font-bold text-green-600 mb-2">$18.6M</div>
-              <div className="text-xl font-bold text-gray-900 mb-1">Experian (2019)</div>
-              <p className="text-gray-600">Failing to investigate and correct errors</p>
+              <div className="text-3xl font-bold text-green-600 mb-2">$22.5M</div>
+              <div className="text-xl font-bold text-gray-900 mb-1">CFPB v. Equifax (2017)</div>
+              <p className="text-gray-600">CFPB enforcement action for dispute handling procedures</p>
             </div>
             <div className="bg-white rounded-xl p-6 shadow-sm border">
               <div className="text-3xl font-bold text-green-600 mb-2">$5K-50K</div>
               <div className="text-xl font-bold text-gray-900 mb-1">Individual Cases</div>
-              <p className="text-gray-600">Typical range for cases with documented harm</p>
+              <p className="text-gray-600">Typical range for individual cases with documented harm</p>
             </div>
           </div>
         </section>
