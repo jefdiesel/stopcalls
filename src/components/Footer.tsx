@@ -83,6 +83,19 @@ export default function Footer() {
               This site provides legal information, not legal advice. Consult an attorney for your specific situation.
             </p>
           </div>
+          <div className="mt-4 text-center">
+            <p className="text-gray-500 text-xs">
+              Images by{' '}
+              <a
+                href="https://www.freepik.com/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="underline hover:text-gray-400"
+              >
+                Freepik
+              </a>
+            </p>
+          </div>
         </div>
       </div>
     </footer>

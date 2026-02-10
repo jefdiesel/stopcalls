@@ -4,9 +4,10 @@ export default function Home() {
   return (
     <div>
       {/* Hero Section */}
-      <section className="bg-gradient-to-br from-blue-600 to-blue-800 text-white">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20 md:py-28">
-          <div className="max-w-3xl">
+      <section className="bg-gradient-to-br from-blue-600 to-blue-800 text-white relative overflow-hidden">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20 md:py-28 relative z-10">
+          <div className="md:flex md:items-center md:gap-12">
+          <div className="max-w-3xl md:w-1/2">
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold leading-tight">
               Debt Collectors Breaking the Law?
               <span className="block text-blue-200 mt-2">You Could Be Owed Money.</span>
@@ -39,6 +40,17 @@ export default function Home() {
                 Learn Your Rights
               </Link>
             </div>
+          </div>
+          {/* Hero Image */}
+          <div className="hidden md:block md:w-1/2 mt-12 md:mt-0">
+            <img
+              src="/images/woman-quarreling-cellphone-while-using-laptop.jpg"
+              alt="Woman quarreling on cellphone while using laptop"
+              className="rounded-2xl shadow-2xl"
+              width={600}
+              height={400}
+            />
+          </div>
           </div>
         </div>
       </section>
